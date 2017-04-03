@@ -54,13 +54,3 @@ func binaryWithArray<T:Comparable> (_ a: [T], key: T) -> Int? {
     return nil
     
 }
-
-func linearSearch<T:Equatable> (_ a:[T], _ object: T) -> Int? {
-    
-    for (index, obj) in a.enumerated() where obj == object {
-        return index
-    }
-    
-    return nil
-    
-}
